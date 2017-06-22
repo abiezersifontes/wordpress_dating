@@ -1,0 +1,20 @@
+.dark-primary-color    { background: #303F9F; }
+.default-primary-color { background: #3F51B5; }
+.light-primary-color   { background: #C5CAE9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #536DFE; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+#customer_login .woocommerce-Button{
+  border-radius: 5px;
+}
+
+div.flex-col:nth-child(4) > ul:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1){
+  background-color:white;
+}
+.form-flat input:not([type="submit"]){background-color: #ffffff;}
+
+input[type="search"]{height: 2.3em;vertical-align: text-top;}
+.form-flat input:not([type="submit"]){border-radius: 4px;}

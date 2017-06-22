@@ -1,0 +1,16 @@
+[31-Oct-2016 11:43:06 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[31-Oct-2016 11:43:06 America/Denver] PHP Parse error:  syntax error, unexpected '$' in /home7/adminpan/public_html/evavenezuela/usuarios/fullpath.php on line 2
+[31-Oct-2016 11:43:12 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[31-Oct-2016 11:43:12 America/Denver] PHP Parse error:  syntax error, unexpected '$' in /home7/adminpan/public_html/evavenezuela/usuarios/fullpath.php on line 2
+[31-Oct-2016 11:43:31 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[31-Oct-2016 11:43:31 America/Denver] PHP Parse error:  syntax error, unexpected '$' in /home7/adminpan/public_html/evavenezuela/usuarios/fullpath.php on line 2
+[31-Oct-2016 11:56:03 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[31-Oct-2016 11:56:03 America/Denver] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home7/adminpan/public_html/evavenezuela/usuarios/fullpath.php on line 2
+[31-Oct-2016 11:56:19 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[31-Oct-2016 11:56:19 America/Denver] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home7/adminpan/public_html/evavenezuela/usuarios/fullpath.php on line 2
+[31-Oct-2016 11:56:31 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[31-Oct-2016 11:56:31 America/Denver] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home7/adminpan/public_html/evavenezuela/usuarios/fullpath.php on line 2
+[31-Oct-2016 11:58:28 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[31-Oct-2016 11:58:28 America/Denver] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home7/adminpan/public_html/evavenezuela/usuarios/fullpath.php on line 2
+[31-Oct-2016 11:58:30 America/Denver] PHP Warning:  Module 'magickwand' already loaded in Unknown on line 0
+[31-Oct-2016 11:58:30 America/Denver] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home7/adminpan/public_html/evavenezuela/usuarios/fullpath.php on line 2

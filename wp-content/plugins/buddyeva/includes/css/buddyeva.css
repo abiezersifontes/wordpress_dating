@@ -1,0 +1,195 @@
+/*
+boton de cancelar amistad
+*/
+input[type='checkbox'], input[type='radio'] {display: inline-flex;}
+
+#buddypress a.friendship-button{width:140px;height:28px;margin: auto;}
+
+#buddypress .icon-be{margin: 0 auto;}
+
+#buddypress .style2-columns{margin-left: 2px;}
+#buddypress .style3-columns{margin-right:1%;margin-left: 2px;}
+#buddypress .style1-columns{margin-left: 2%;}
+#buddypress .as_45454sd{padding-top: 10%;}
+
+#buddypress .info{border-radius:5px;}
+
+#buddypress a.remove{width:240px;height:28px;}
+
+#buddypress li.members-all{display:none;}
+
+#buddypress td.data, #buddypress td.label{font-weight: bold;color:black;}
+
+/*
+*Radio en el borde de los botones
+*/
+#buddypress .send-message, #buddypress a.friendship-button, #buddypress a.remove{border-radius:5px;}
+
+#buddypress{padding-top:20px;padding-left:15px;padding-right:15px;padding-bottom:100px;}
+
+#buddypress div.contenido{padding-bottom:100px;color: #212121;}
+
+#buddypress div.intereses-buddyeva, #buddypress div.que-busco-buddyeva, #buddypress div.acerca-de-buddyeva{background-color:white;border: 1px #ddd solid;border-radius: 4px;}
+#buddypress div.item-list-tabs#object-nav {margin-top: 15px;}
+/*estilos de div de I feel*/
+#buddypress .contenedor_feel{  border: 1px #ddd solid;}
+#buddypress .i-feel{margin-top: 270px;font-size:16px;line-height: 22px;color:#222;font-family:"Open Sans", Arial, "Helvetica CY", "Nimbus Sans L", sans-serif }
+#buddypress .edit-feel{border-radius: 999px;}
+
+#buddypress .gallerybuddypress{background-color:white;border: 1px #ddd solid;border-radius: 4px;height: 200px;margin-right: 1%;}
+
+#buddypress div.item-list-tabs ul li.current a, #buddypress div.item-list-tabs ul li.selected a{
+  /*background: #aab8c2;
+  color: #2F2E2E;*/
+}
+#buddypress #user-notifications{background-color: rgba(0, 0, 0, 0.5);color: white;}
+#buddypress #user-messages{background-color: rgba(0, 0, 0, 0.5);color: white;border-radius: 0 4px 4px 0;}
+#buddypress #user-xprofile{background-color: rgba(0, 0, 0, 0.5);color: white;border-radius: 4px 0 0 4px;}
+
+#buddypress #public-personal-li{display: none;}
+#buddypress .selected{background-color: rgba(0, 0, 0, 0.6);border-radius: 4px 4px 4px 4px;}
+#buddypress #editar:hover{background-color:rgba(0, 0, 0, 0.7);}
+#buddypress #change-avatar:hover{background-color:rgba(0, 0, 0, 0.7);}
+#buddypress #change-cover-image:hover{background-color: rgba(0, 0, 0, 0.7);}
+#buddypress #notifications-my-notifications:hover{background-color:rgba(0, 0, 0, 0.7);}
+#buddypress #read:hover{background-color:rgba(0, 0, 0, 0.7);}
+#buddypress #inbox:hover{background-color:rgba(0, 0, 0, 0.7);}
+#buddypress #starred:hover{background-color:rgba(0, 0, 0, 0.7);}
+#buddypress #sentbox:hover{background-color:rgba(0, 0, 0, 0.7);}
+#buddypress #user-notifications:hover{background-color:rgba(0, 0, 0, 0.7); }
+#buddypress #user-messages:hover{background-color:rgba(0, 0, 0, 0.7); }
+#buddypress #user-xprofile:hover{background-color: rgba(0, 0, 0, 0.7);}
+#buddypress #compose:hover{background-color: rgba(0, 0, 0, 0.7);}
+
+#buddypress #editar{background-color: rgba(0, 0, 0, 0.5);color: white;border-radius: 4px 0 0 4px;}
+#buddypress #change-avatar{background-color: rgba(0, 0, 0, 0.5);color: white;}
+#buddypress #change-cover-image{background-color: rgba(0, 0, 0, 0.5);color: white;border-radius: 0 4px 4px 0px;}
+#buddypress #notifications-my-notifications{background-color: rgba(0, 0, 0, 0.5);color: white;border-radius: 4px 0 0 4px;}
+#buddypress #read{background-color: rgba(0, 0, 0, 0.5);color: white;border-radius: 0 4px 4px 0px;}
+#buddypress #inbox{background-color: rgba(0, 0, 0, 0.5);color: white;border-radius: 4px 0 0 4px;}
+#buddypress #starred{background-color: rgba(0, 0, 0, 0.5);color: white;}
+#buddypress #sentbox{background-color: rgba(0, 0, 0, 0.5);color: white;border-radius: 0 4px 4px 0;}
+#buddypress #compose{background-color: rgba(0, 0, 0, 0.5);color: white;border-radius: 0 4px 4px 0px;}
+
+
+/*
+* SubOptions menu profile buddypress
+*/
+#buddypress .profile{background-color: white;margin-top: 2%;}
+
+#buddypress .name_user{font-weight: bold;font-size: 2rem;color: #fff;text-rendering: optimizelegibility;text-shadow: 0 0 3px rgba(0,0,0,.8);}
+
+
+#buddypress p.drag-drop-buttons input#bp-browse-button{width: 15em}
+/*==============================
+Carga de imagenes de intereses
+================================*/
+#buddypress #header-cover-image {height: 250px;}/*Alto de backgraund de perfil*/
+#buddypress .item-list-tabs{font-family: Geneva, Arial, Helvetica, sans-serif;}/*tipo de fuente de menu*/
+#buddypress #ahg_54854{background-color:#4dc9f6;border-radius: 50%; width: 60px;}
+#buddypress .nvhf_3568{max-width: 60%;padding-top: 25%;padding-bottom: 25%;padding-left: 5%;padding-right: 5%;}
+#buddypress .pqwo_985{font-family: Geneva, Arial, Helvetica, sans-serif;font-style: normal;font-size: smaller;}
+#buddypress .Viajes:before {content: url("/wp-content/uploads/buddyeva/viajar.svg");}
+#buddypress .Fotografia:before{content: url("/wp-content/uploads/buddyeva/fotografia.svg");}
+#buddypress .Coches:before{content: url("/wp-content/uploads/buddyeva/carro.svg");}
+#buddypress .Compras:before{content: url("/wp-content/uploads/buddyeva/comprar.svg");}
+#buddypress .Deportes:before{content: url("/wp-content/uploads/buddyeva/deporte.svg");}
+#buddypress .Television:before{content: url("/wp-content/uploads/buddyeva/television.svg");}
+#buddypress .Musica:before{content: url("/wp-content/uploads/buddyeva/musica.svg");}
+#buddypress .Lectura:before{content: url("/wp-content/uploads/buddyeva/lectura.svg");}
+#buddypress .Cocina:before{content: url("/wp-content/uploads/buddyeva/cocina.svg");}
+#buddypress .Animales:before{content: url("/wp-content/uploads/buddyeva/animales.svg");}
+#buddypress .Teatro:before{content: url("/wp-content/uploads/buddyeva/teatro.svg");}
+#buddypress .Paseos:before{content: url("/wp-content/uploads/buddyeva/pasear.svg");}
+#buddypress .Informatica:before{content: url("/wp-content/uploads/buddyeva/informatica.svg");}
+#buddypress .Museos:before{content: url("/wp-content/uploads/buddyeva/museo.svg");}
+#buddypress .Bricolaje:before{content: url("/wp-content/uploads/buddyeva/bricolaje.svg");}
+#buddypress .Pintura:before{content: url("/wp-content/uploads/buddyeva/pintura.svg");}
+#buddypress .Danza:before{content: url("/wp-content/uploads/buddyeva/bailar.svg");}
+#buddypress .Decoracion:before{content: url("/wp-content/uploads/buddyeva/decoracion.svg");}
+#buddypress .Videojuegos:before{content: url("/wp-content/uploads/buddyeva/videojuego.svg");}
+#buddypress .Jardineria:before{content: url("/wp-content/uploads/buddyeva/jardineria.svg");}
+#buddypress .Escritura:before{content: url("/wp-content/uploads/buddyeva/escritura.svg");}
+#buddypress .Juegos_de_mesa:before{content: url("/wp-content/uploads/buddyeva/juego-de-mesa.svg");}
+#buddypress .Arte:before{content: url("/wp-content/uploads/buddyeva/arte.svg");}
+#buddypress .Cine:before{content: url("/wp-content/uploads/buddyeva/cine.svg");}
+#buddypress .Salir_con_amigos:before{content: url("/wp-content/uploads/buddyeva/salir-con-amigos.svg");}
+#buddypress .Pesca:before{content: url("/wp-content/uploads/buddyeva/pescar.svg");}
+#buddypress .Cata_de_vinos:before{content: url("/wp-content/uploads/buddyeva/vino.svg");}
+#buddypress .Cantar:before{content: url("/wp-content/uploads/buddyeva/cantar.svg");}
+#buddypress .Instrumento_musical:before{content: url("/wp-content/uploads/buddyeva/instrumento.svg");}
+
+
+#buddypress input#send-to-input, #buddypress input#subject, #buddypress textarea#message_content{border-radius: 3px;margin: auto;margin-left: 1%;}
+#login-form-popup > div.woocommerce{border-radius: 4px;}
+#buddypress .standard-form label{margin: 15px 1% 5px !important;}
+div.mfp-content{border-radius: 10px;}
+#buddypress ul.acfb-holder li.friend-tab{margin-left: 5px;}
+/*
+*button send menssage border radius
+*/
+
+#buddypress input#send, #buddypress a#add, #buddypress #messages_search, #buddypress #messages_search_submit{border-radius: 4px;padding-left: 5px;padding-right: 5px;letter-spacing: 0;margin-left:1%;}
+#buddypress input[type="submit"]{padding-left: 4px;padding-right: 4px; padding:0;}
+#buddypress #messages_search{width:60%;height:30px;}
+#buddypress #messages_search_submit{width:29%;height:30px;}
+#buddypress #send_message_form{border-radius:5px;border: solid 1px #ddd;}
+
+/*
+*imagen de perfil
+*/
+#buddypress img.avatar{border-radius:10px;}
+#buddypress .odd{margin-top: 5px !important;border-radius:10px;width:60%;margin-left: 1% !important}
+#buddypress .even{margin-top: 5px !important;border-radius: 10px;width: 60%;margin-left: 1% !important}
+#buddypress #message-thread{background: url("/wp-content/uploads/buddyeva/back.jpg");border-radius: 4px;}
+#buddypress .sent-by-me{border-radius:10px;width:60%;margin-top:5px !important;margin-left:39% !important;margin-bottom: 5px !important;background:#d0d3d8 !important;color: black;}
+#buddypress .standard-form textarea#message_content {height:100px;border-radius: 10px;}
+#buddypress #message-recipients{margin-left: 74% !important;}
+#buddypress .style_23689{background: transparent !important;}
+#buddypress span.activity {font-size: xx-small;}
+#buddypress #send_reply_button{padding-left: 3% !important;padding-right: 3% !important;margin-top: 25% !important;border-radius:4px;}
+#buddypress .btn_5258{padding: 0 !important;}
+#buddypress a {color: #777;}
+#buddypress #send_reply_button{background: url("/wp-content/uploads/buddyeva/sobre.svg");width: 45%;background-repeat: no-repeat;border: 0px;}
+#buddypress #compose-personal-li{display:none;}
+
+
+
+
+.color1{background-color:red;border-radius:50%;padding:20% 20% 20% 20%;}
+.color2{background-color:blue;}
+.color3{background-color:yellow;}
+
+.dark-primary-color    { background: #303F9F;}
+.default-primary-color { background: #3F51B5;}
+.light-primary-color   { background: #C5CAE9;}
+.text-primary-color    { color: #FFFFFF;}
+.accent-color          { background: #536DFE;}
+.primary-text-color    { color: #212121;}
+.secondary-text-color  { color: #757575;}
+.divider-color         { border-color: #BDBDBD;}
+
+/*Ventana modal de perfil de buddypress*/
+#feel_wc{resize:none;}
+.alt_modal{height: 210px;}
+.modal-footer {border-top: 0px solid #e5e5e5;}
+
+@media screen and (max-width:850px){
+  #buddypress .style3-columns {margin-right: 5px;margin-left: 5px;}
+  #buddypress .style1-columns {margin-right: 5px;margin-left: 1%;}
+  #buddypress .style2-columns {margin-right: 5px;margin-left: 5px;}
+  #buddypress .gallerybuddypress {margin-right: 0%;}}
+
+@media screen and (max-width:500px){
+#buddypress .odd{border-radius:10px;width:70%;}
+#buddypress .sent-by-me{border-radius:10px;width:70%;margin-top:5px !important;margin-left:28% !important;margin-bottom: 5px !important;}
+#buddypress div#message-thread div.message-content {margin-left: 2px;}
+#buddypress .small-12 {max-width: 25%;}
+#buddypress div.item-list-tabs#subnav{font-size: 10px;}
+#buddypress #message-recipients{margin-left: 0 !important;}
+}
+
+@media screen and (min-width:800px){
+  #buddypress #send_message_form{width: 50%;padding-left: 8%;margin-left: 25%;}
+  #buddypress input#send{margin-left: 20%;}
+}

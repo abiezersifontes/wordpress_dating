@@ -1,0 +1,47 @@
+  MODULOS
+    - Regalos Virtuales 0%
+    - Mensajes 40% (le faltan estilos, le faltan caritas)
+    - Galeria 80% (estilos en vista rapida)
+    - Perfil de modelos en buddypress 90% (Mejorar estilos de botones guardar y aplicar cambios)
+    - Perfil 95% (Estilo al boton de quiero conocerte, recorrer aray intereses)
+    - Bloquear contenido en buddypress 100%
+    - Menu 100%
+    - Login 100%
+    - Perfil usuario general 100%
+    - Home 100%
+    - Menu 100%
+    - Login 100%
+    - Perfil usuario general 100%
+    - Perfil de usuario general en buddypress 100%
+    - Perfil de modelos en buddypress 100%
+
+-Cosas pendientes
+    - Agregar Regalos Virtuales
+    - Añadir a los mensajes estilos, opciones para envier caritas
+    - Enviar correo al usuario(modelo) con sus datos al ser registrado.
+    - Al crear producto debe vincular la foto con el usuario
+    - Validacion de formulario de login con ajax
+    - Usar validacion de wordpress('debe validar en varios idiomas')
+    - Notificar al usuario que ha recibido un mensaje
+    - Bloquear las paginas internas de buddypress
+    - Quitar Efectos de Seleccion sobre las opciones por Defecto de Flatsome
+
+    - Caracteres especiales y acentos para campos que usan checkbox(Intereses, Imperfecciones)
+    - Subir datos reales de modelos que ya tenemos, Subir todas las modelos que tenemos
+    - Testing para producto.
+    - Centrar botones de redes sociales en el login
+    - corregir que las fotos no se salgan
+
+    -Ready
+      - Mejorar estilos en vista rapida
+      - Corrigiendo que riholmery no envia mensajes
+      - Solucionando error con product ID
+      - Crear formulario para modelo
+      - Modificar checkout.
+      - remover boton de mensaje privado en buddypress.
+      - bloquear pagina my-account woocommerce
+      - Modificar estilo de menu de buddypress
+
+  - Propuestas de Optimización
+    - Eliminar saltos de linea en los js
+    - error al tratar de registrase con la url sucia http://localhost/?text=carlusia&text1=carlusia%40carlusia.cim&text2=123&registrarme=Registrarme

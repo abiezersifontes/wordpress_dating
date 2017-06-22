@@ -1,0 +1,92 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-11 17:09+0200\n"
+"PO-Revision-Date: 2016-09-11 17:13+0200\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Enrique Ros\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.9\n"
+
+#: add-to-cart-custom-text.php:207
+msgid "</em> button in archive pages (shop, category, tags...) by product type"
+msgstr ""
+"</em> en p&aacute;ginas de archivo (tienda, categor&iacute;a, etiquetas...) "
+"por tipo de producto"
+
+#: add-to-cart-custom-text.php:170
+msgid "</em> button in single product pages by product type"
+msgstr "</em> en las p&aacute;ginas de producto  por tipo de producto"
+
+#: add-to-cart-custom-text.php:162
+msgid "Add to Cart Custom Text options"
+msgstr "Opciones de Add to Cart Custom Text"
+
+#: add-to-cart-custom-text.php:170 add-to-cart-custom-text.php:207
+msgid "Add to cart"
+msgstr "A&ntilde;adir al carrito"
+
+#: add-to-cart-custom-text.php:196 add-to-cart-custom-text.php:232
+msgid "Bookable product"
+msgstr "Producto reservable"
+
+#: add-to-cart-custom-text.php:206
+msgid "Button text in archive pages"
+msgstr "Texto del bot&oacute;n en p&aacute;ginas de archivo"
+
+#: add-to-cart-custom-text.php:169
+msgid "Button text in single product pages"
+msgstr "Texto del bot&oacute;n en las p&aacute;ginas de producto"
+
+#: add-to-cart-custom-text.php:170 add-to-cart-custom-text.php:207
+msgid "Custom text for the <em>"
+msgstr "Texto personalizado para el bot&oacute;n <em>"
+
+#: add-to-cart-custom-text.php:277
+msgid "Donate"
+msgstr "Dona"
+
+#: add-to-cart-custom-text.php:179 add-to-cart-custom-text.php:215
+msgid "External/Affiliate product"
+msgstr "Producto externo/afiliado"
+
+#: add-to-cart-custom-text.php:189 add-to-cart-custom-text.php:225
+msgid "Grouped product"
+msgstr "Producto agrupado"
+
+#: add-to-cart-custom-text.php:275
+msgid "Settings"
+msgstr "Ajustes"
+
+#: add-to-cart-custom-text.php:174 add-to-cart-custom-text.php:210
+msgid "Simple product"
+msgstr "Producto simple"
+
+#: add-to-cart-custom-text.php:276
+msgid "Support"
+msgstr "Soporte"
+
+#: add-to-cart-custom-text.php:153
+msgid ""
+"This plugin has no sense without WooCommerce. Please, <a href=plugins."
+"php>activate WooCommerce</a> first."
+msgstr ""
+"Este plugin no tiene sentido sin WooCommerce. Por favor, <a href=plugins."
+"php>activa WooCommerce</a> primero."
+
+#: add-to-cart-custom-text.php:184 add-to-cart-custom-text.php:220
+msgid "Variable product"
+msgstr "Producto variable"
+
+#: add-to-cart-custom-text.php:156
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes permisos para acceder a esta p&aacute;gina."

@@ -1,0 +1,232 @@
+/*
+Theme Name: Flatsome Child
+Description: This is a child theme for Flatsome Theme
+Author: Evavenezuela
+Template: flatsome
+Version: 3.0
+*/
+
+@import url("../flatsome/assets/css/flatsome.css");
+/*************** ADD CUSTOM CSS HERE.   ***************/
+
+.large-3 {margin-top: 60px;display: none;}
+
+/*=============================
+Estilos formulario de registro
+===============================*/
+.personalizado{color: black;}
+.boton, .jossy{position: relative;display: inline-block;background-color: #a21a32;text-transform: uppercase;font-size: .97em;letter-spacing: .03em;-ms-touch-action: none;touch-action: none;cursor: pointer;font-weight: bolder;text-align: center;color: currentColor;text-decoration: none;border: 1px solid transparent;vertical-align: middle;border-radius: 5px;margin-top: 0;margin-right: 1em;line-height: 2.4em;min-height: 2.5em;padding: 0 1.2em;max-width: 100%;transition: border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s, -webkit-transform .3s;transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s;transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s, -webkit-transform .3s;text-rendering: optimizeLegibility;box-sizing: border-box;text-shadow: 0 1px rgba(255, 255, 255, 0.69);box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);}
+.account-login-inner{width: 330px;}/*input de login*/
+#contenido .text-left {text-align: center;}
+#contenido .pt-half {padding-top: 0px;}
+#contenido .pb-half {padding-bottom: 0px;}
+#contenido input[type="submit"] {background-color: #bb564a ;margin-top: 25px;}
+.circle {border-radius: 4px !important;}
+input.registrar {position: relative;display: inline-block;background-color: transparent;text-transform: uppercase;font-size: .97em;letter-spacing: .03em;-ms-touch-action: none;touch-action: none;cursor: pointer;font-weight: bolder;text-align: center;color: currentColor;text-decoration: none;border: 1px solid transparent;vertical-align: middle;border-radius: 5px;margin-top: 0;margin-right: 1em;text-shadow: none;line-height: 2.4em;min-height: 2.5em;padding: 0 1.2em;max-width: 100%;transition: border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s, -webkit-transform .3s;transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s;transition: transform .3s, border .3s, background .3s, box-shadow .3s, opacity .3s, color .3s, -webkit-transform .3s;text-rendering: optimizeLegibility;box-sizing: border-box;width: 100%;}
+#contenido{width: 340px;max-height: 500px%;background: white;border-radius: 5px;border-color: #fff;overflow: hidden;border: 1px solid rgba(240, 245, 246, 0.8);box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);max-width: 340px;}
+#contenido h3{padding-top: 6px;padding: 6px;font-size: 7px;color: white;background-color: #a21b32;font: bold 16px Arial,sans-serif;width: 100%;}
+hr{border: 0 ;border-top:4px double black;width: 100%;}
+#cuerpo{width: 20.00em;margin: auto;}
+#cabecera{width: 70px;height: 80px;display: block;margin: auto;}
+#cabecera img {padding-top: 10px;max-width: 100%;height: auto;width: auto/9;}
+label.label_reg{color: black;}
+.titulo_reg{font-size: .60em;}
+.registrar {border-color: black;}
+.dark .button, .dark input[type='submit'], .dark input[type='reset'], .dark input[type='button'] {color: #F9E9E9;}
+#cabecera{background-image: url("Image/logo_2.png");}
+#pie_de_form{color: black;font-size: .65em;}
+.large-12 {max-width: 100%;-webkit-flex-basis: 100%;-ms-flex-preferred-size: 100%;flex-basis: 100%;padding: 0px;}
+.lightbox-content {max-width: 400px;}
+.login form .input, .login input[type="text"] {font-size: 13px;}
+#texto {width: 800px;float: left;}
+
+.woocommerce-Input{
+  border-radius: 5px;
+}
+
+/*
+--------------------------------------------
+Estilos del label del boton acceder del home
+--------------------------------------------*/
+.dark a, .dark .widget a {color: white;}
+select.soy {box-shadow: inset 0 -1.4em 1em 0 rgba(0,0,0,0.02);background-color: #fff;-webkit-appearance: none;-moz-appearance: none;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAHCAYAAAD9NeaIAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA+hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NDkxMSwgMjAxMy8xMC8yOS0xMTo0NzoxNiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcDpDcmVhdGVEYXRlPSIyMDE1LTA0LTE3VDE3OjEyOjQyKzAyOjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAxNS0wNC0yMFQxNzoxNjoyNCswMjowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxNS0wNC0yMFQxNzoxNjoyNCswMjowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTU4MjBDRURERjVCMTFFNEEzN0FCODBEM0I5MTExMjkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTU4MjBDRUVERjVCMTFFNEEzN0FCODBEM0I5MTExMjkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo2RUVFRDJCNkREQzMxMUU0QTM3QUI4MEQzQjkxMTEyOSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFNTgyMENFQ0RGNUIxMUU0QTM3QUI4MEQzQjkxMTEyOSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuShL/sAAABeSURBVHjaYszOzjZnYGDYCcT8DMSBv0AcP2XKlKVEqmdgAuKTQOwOxB+JtQCIibYAZgkDkRaRZQGyJYQsItsCdEtwWUSRBdgsQbeIYgtAgAWHOMwiJSBezkAhAAgwAJSTG/DI0S9VAAAAAElFTkSuQmCC");background-position: 100% 50%;background-repeat: no-repeat;background-size: auto 15%;border-radius: 5px;display: block;text-overflow: '';}
+input.text_form, input.contraseña_reg, input.mail_reg {box-sizing: border-box;border: 1px solid #ddd;padding: 0 .75em;height: 2.507em;font-size: .97em;border-radius: 5px;max-width: 100%;width: 100%;vertical-align: middle;background-color: #fff;color: #333;box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);transition: color .3s, border .3s, background .3s, opacity .3s;}
+
+/*
+Estilos para cajas de validacion
+--------------------------------*/
+.errores{border-radius: 10px;z-index:3;background:rgba( 234, 204, 153, 0.97 );color:black;font-size: 10px;margin-top: -45px;margin-left: 217px;padding-left: 10px;padding-right: 10px;padding-top: 0px;position:absolute;display: none;width: 200px;}
+
+/*---------------------------------
+Estilos para textos en la validacion
+--------------------------------*/
+.dark p {color: #080808;}
+
+/*---------------------------------
+Margen para el sidebar del catalogo
+-----------------------------------*/
+.large-3 {margin-top: 60px;}
+.input_error{border:2px solid red;/* otras propiedades */}
+.menu-item i._mi {margin-top: 0.3em;}
+.form-row input[type="submit"] {margin: 0px;margin-top: 20px;}
+.row.row-small {
+    margin-top: 2%;
+}
+.nav>li>a:hover{background-color: transparent;}
+
+/*==============================
+ESTILOS PARA VENTANA MODAL
+================================*/
+.modal {top: 15%}
+.prueba{width: 80%;height: 50%;}
+form p {margin-bottom: 0.1em;}
+.img_ventana{margin-left: 5%;}
+.hola{width: 50%;float:left;}
+.modal-content{height: 380px;}
+.text-modal{color: #18273a;}
+.modal-backdrop.in {opacity: 0.8;}
+
+/*============================
+Estilos de pagina de producto
+==============================*/
+div.product div.images img, #content div.product div.images img {width: 100% !important;}
+.informacion{text-align : justify;margin-left: 5%;color:black;line-height: 0.8;margin-right: 5%;}
+.parrafo{text-align : justify;margin-left: 5%;color:black;margin-right: 5%;}
+.identificador{color: black;}
+.nombre{color:#a21a32;}
+.grid-tools a {background-color: #bb564a;}
+.related{color:#a21a32;}
+.if{font-size: 1.5rem;}
+.nombre_relacionado{font-size: 1.6rem;}
+.vista{font-size: 1.5rem;}
+.gallerywoo {margin-top: 10px;}
+.info_model{margin-top: 10px;}
+.page-wrapper {padding-top: 30px;padding-bottom: 30px;}
+
+
+/*===========================================
+Estilos de vista rapido en galeria
+=============================================*/
+.overlay-tools{margin-top:10px}.overlay-tools a{display:inline-block;font-size:1.2em;;background-color:rgba(166,218,29,0.8);padding:2px 10px 3px;margin-right:5px;border-radius:4px;text-shadow:none;transition:all .3s}.overlay-tools a:hover{background-color:#A6DA1D;color:white !important}.tag-label{text-transform:uppercase;display:inline-block;font-size:.65em;line-height:1;letter-spacing:1.1;font-weight:bold;border-radius:2px;padding:2px 5px;color:#fff;background-color:rgba(0,0,0,0.4);transition:background-color .3s, opacity .3s}
+.vista{font-size: 1.5rem;}
+.fuente{font-size: 3.1rem;}
+.col-fit {margin-left: -25px;}
+div.hide{width:60%;border-radius: 3px;}
+div.imagen{width:39%;}
+div.nombre{width:50%;}
+.inline {display: inline-flex;} /*checkbox del form de ingreso*/
+.nosotros{margin-top: 7%;}
+
+
+
+/*============================================
+Estilo del grid de datos
+==============================================*/
+.single_add_to_cart_button {background-color: #a32a31;margin-top: 4%;}/*boton añadir al carrito*/
+.size{font-size: 2.5rem;font-weight: bold;font-family:fantasy;letter-spacing: normal;}
+.vertical-bar {border-left: 2px solid #a31a32;width:1px;height:20px;padding-left: 1%;margin-left: 1%;}
+.color_red{color: red;}
+.cuadro{background-color: white;padding-top: 5%;padding-bottom: 1%;margin-top: 1%;}
+.profilewoocommerce{background-color:  rgba(24,39,62,0.2);border-radius: 4px;position:relative;}
+.cuadro1{background-color: white;padding-top: 5%;padding-bottom: 1%;}
+.nav .nav-dropdown {text-align: center;}
+
+/*Estilos para el plugin de miembros*/
+#members_circle img{border-radius: 100%;}
+#members_circle{width: 18%; float:left; margin-right: 2%;padding-bottom: 5%;}
+.title_members{margin-bottom: 5%;color:black;font:normal 'Lato';padding-top: 2%;}
+.member_color{color:#F00056}
+.section + .row:not(.row-collapse) {margin-top: 0;} /*seccion de testimonios*/
+.mfp-image-holder .mfp-content {max-width: 50%;}
+
+.woocommerce-EditAccountForm{padding-top: 4%;max-width: 73%;margin-left: 11%;}
+.select{background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAHCAYAAAD9NeaIAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA+hpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDIxIDc5LjE1NDkxMSwgMjAxMy8xMC8yOS0xMTo0NzoxNiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczpkYz0iaHR0cDovL3B1cmwub3JnL2RjL2VsZW1lbnRzLzEuMS8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgKE1hY2ludG9zaCkiIHhtcDpDcmVhdGVEYXRlPSIyMDE1LTA0LTE3VDE3OjEyOjQyKzAyOjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAxNS0wNC0yMFQxNzoxNjoyNCswMjowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAxNS0wNC0yMFQxNzoxNjoyNCswMjowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RTU4MjBDRURERjVCMTFFNEEzN0FCODBEM0I5MTExMjkiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RTU4MjBDRUVERjVCMTFFNEEzN0FCODBEM0I5MTExMjkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo2RUVFRDJCNkREQzMxMUU0QTM3QUI4MEQzQjkxMTEyOSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpFNTgyMENFQ0RGNUIxMUU0QTM3QUI4MEQzQjkxMTEyOSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuShL/sAAABeSURBVHjaYszOzjZnYGDYCcT8DMSBv0AcP2XKlKVEqmdgAuKTQOwOxB+JtQCIibYAZgkDkRaRZQGyJYQsItsCdEtwWUSRBdgsQbeIYgtAgAWHOMwiJSBezkAhAAgwAJSTG/DI0S9VAAAAAElFTkSuQmCC");}
+@media only screen and (max-width: 57em){
+
+/*************** ADD MOBILE ONLY CSS HERE  ***************/
+
+/*formulario de registro*/
+#texto{visibility:hidden;}
+#contenido{width: 300px;}
+#cuerpo{width: 250px;}
+.nav-top-not-logged-in, .boton, .jossy{width: 100%;}
+.overlay-tools{margin-top:10px}.overlay-tools a{display:inline-block;font-size:.3em;;background-color:rgba(166,218,29,0.8);padding:2px 10px 3px;margin-right:5px;border-radius:4px;text-shadow:none;transition:all .3s}
+.if{font-size: .8rem;}
+.fuente{font-size: 1.3rem;}
+}
+
+@media screen and (max-width:850px){
+  .col-fit{margin-left: 0;}
+}
+
+@media screen and (min-width:850px){
+.gallerywoo{height: 950px;}
+}
+
+@media screen and (min-width:1200px){
+}
+
+@media screen and (min-width: 900px){
+.large-9 {max-width: 50%;-webkit-flex-basis: 75%;-ms-flex-preferred-size: 75%;flex-basis: 100%;}
+.size{font-size: 2.5rem;font-weight: bold;font-family:fantasy;letter-spacing: normal;}
+}
+
+
+/*
+@media screen and (min-width:1050px){
+.size{font-size: 2.5rem;font-weight: bold;font-family:fantasy;letter-spacing: normal;}
+}
+
+@media screen and (min-width:1000px){
+.size{font-size: 2.5rem;font-weight: bold;font-family:fantasy;letter-spacing: normal;}
+}
+
+@media screen and (max-width:950px min-width:900px){
+    .informacion{font-size:1.1rem; }
+    .parrafo{font-size:1.1rem;}
+    .size{font-size: 2.5rem;font-weight: bold;font-family:fantasy;letter-spacing: normal;}
+}
+*/
+
+
+@media (max-width: 600px) {
+  .form-flat input:not([type="submit"]), .form-flat textarea, .form-flat select {
+    width: 100px;
+    margin-left: 50%;}
+}
+
+@media (max-width: 400px) {
+   .form-flat input:not([type="submit"]), .form-flat textarea, .form-flat select {
+    width: 80px;
+    margin-left: 70%;}
+    .searchform-wrapper .button.icon {
+    margin: 0;
+    margin-left: 79%;}
+    @-moz-document url-prefix() {
+    .form-flat input:not([type="submit"]), .form-flat textarea, .form-flat select {
+    width: 80px;
+    margin-left: 144%;}}
+
+}
+
+@media all and (max-width: 250px){
+    .form-flat input:not([type="submit"]), .form-flat textarea, .form-flat select {
+    display: none;}
+    .searchform-wrapper .button.icon {
+    display:none;
+}}
+
+@media all and (max-width:430px){
+  .account-login-inner{width: 200px;}
+}
+
+@media all and (min-width:4000px){
+  #contenido {width: 390px;height: 580px;max-width: 390px;margin-left: -60%;}
+  #cabecera {display: none;}}
+
+  @media all and (min-width:5000px){
+  input.mail_reg{height: 1.507em;}
+  input[type='password']{height: 1.507em;}
+  #cuerpo {width: 14em;}
+  select.soy{height: 1.507em;}
+  input.text_form{height: 1.507em;}
